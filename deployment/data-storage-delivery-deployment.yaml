@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: data-storage-delivery
-        image: lgsvl/data-marketplace-file-delivery:ci
+        image: lgsvlfx/data-marketplace-file-delivery:ci
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
