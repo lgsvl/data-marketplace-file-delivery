@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: data-storage-delivery-service
+  labels:
+    app: data-storage-delivery
+spec:
+  ports:
+    - port: 3000
+      name: https
+      targetPort: 3000
+  type: LoadBalancer
+  selector:
+    app: data-storage-delivery
+
