@@ -1,3 +1,8 @@
+/*
+ Copyright (c) 2019 LG Electronics Inc.
+ SPDX-License-Identifier: Apache-2.0
+*/
+
 const IPFS = require('ipfs-api')
 const config = require('config')
 const ipfsConfig = config.get('ipfs.config')

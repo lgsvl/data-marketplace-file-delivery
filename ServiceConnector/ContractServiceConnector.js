@@ -1,3 +1,8 @@
+/*
+ Copyright (c) 2019 LG Electronics Inc.
+ SPDX-License-Identifier: Apache-2.0
+*/
+
 const request = require('request')
 const contractServiceHost = process.env.CHAIN_SERVICE_HOST
 
